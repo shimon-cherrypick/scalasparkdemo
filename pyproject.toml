@@ -1,0 +1,13 @@
+[project]
+name = "scala_pipes"
+version = "0.1.0"
+dependencies = [
+    "dagster",
+    "dagster-webserver",
+    "dagster-cloud",
+    "dagster-aws",
+]
+
+[tool.dagster]
+module_name = "scala_pipes.definitions"
+code_location_name = "scala_pipes"

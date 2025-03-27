@@ -1,0 +1,7 @@
+.tmp_*
+.venv/
+.vscode/
+.gradle/
+build/
+bin/
+__pycache__/
